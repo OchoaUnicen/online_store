@@ -3,16 +3,72 @@
 *Developed for Samsung Galaxy S5 Resolution
 */
 
-header {
 
-    background-color: bisque;
+@media only screen and (max-width: 600px) {
+
+
+
+    a {
+
+        text-decoration: none;
+    }
+
+
+    body {
+
+        margin: 0;
+    }
+
+    header {
+
+        display: flex;
+        justify-content: space-around;
+        background-color: bisque;
+    
+    }
+
+    header section {
+
+        display: flex;
+        justify-content: space-around;
+     
+
+    }
+
+    #img_logo{
+
+        width: 15vh;
+        height: 10vh;
+    }
+    
+    #img_icono_usuario {
+
+    
+        width: 4vh;
+        height: 4vh;
+        padding: 1vh 0 0 1vh;
+       
+
+    }
+
+    nav {
+
+        display: flex;
+        background-color: seashell;
+        height: 20vh;
+    }
+
+    article {
+
+        background-color: rosybrown;
+        height: 80vh;
+    }
+
+    footer {
+
+        background-color: springgreen;
+    }
+
 
 }
-
-article {
-
-    background-color: rosybrown;
-}
-
-
 
